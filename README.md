@@ -8,6 +8,8 @@
 
 _A person can put in a date and find out what day of the week the date falls on after hitting the "What day of the week was it?" button_
 
+_Live site at https://jeffdinsmore.github.io/GellersWeekdayFinder/_
+
 ## Setup/Installation Requirements
 
 * _Clone this repository._
