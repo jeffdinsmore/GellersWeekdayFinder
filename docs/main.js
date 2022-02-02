@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import WeekdayChecker from './../src/js/weekday.js';
+import WeekdayChecker from './js/weekday.js';
 
 $(document).ready(function () {
   $("#dateForm").submit(function (event) {
@@ -28,7 +28,7 @@ $(document).ready(function () {
       alert("Please select no more than 28 days for this month during a non leap year.");
       event.preventDefault();
     } else if (inputMonth === "2" && inputDay > "30" || inputMonth === 4 && inputDay > "30" || inputMonth === 7 && inputDay > "30" || inputMonth === 9 && inputDay > "30") {
-      alert("Please select no more than 30 days for this month.")
+      alert("Please select no more than 30 days for this month.");
     } else {
       weekdayChecker.zellersEquation(inputMonth, inputDay, inputYear);
       const weekdayArray = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];

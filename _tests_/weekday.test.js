@@ -1,4 +1,4 @@
-import WeekdayChecker from '../src/js/weekday.js';
+import WeekdayChecker from '../docs/js/weekday.js';
 
 describe('WeekdayChecker', () => {
   const weekdayChecker = new WeekdayChecker();
